@@ -90,24 +90,24 @@ height: 600px;
 .card-container{
     
     width: 90;
-    margin: 7rem;
+    margin-left: 4rem;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+   
     flex-wrap: wrap;
     text-align: left;
 }
 .card{ 
-    box-shadow: 5px 7px 40px gray;
+    box-shadow: 2px 3px 20px gray;
     
-    margin: 15px;
+    margin-left: 15px;
     height: 29rem;
 
     width: 25%;
     background: #fff;
     padding: 1rem;
     margin: 2rem;
-    border-radius: 8%;
+    border-radius: 30px;
     position: static;
     
 }
@@ -115,6 +115,44 @@ height: 600px;
     height: 60%;
     width: 100%;
     object-fit: cover;
-    border-radius: 10%;
+    border-radius: 30px;
     position: static;
+}
+#social{
+    display: flex;
+    text-align: center;
+}
+.social-media{
+width: 1239px;
+height: 226px;
+margin: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    box-shadow: 2px 3px 15px gray;
+    padding: 10px;
+    
+    border-radius: 20px;
+   
+
+}
+.social-media h1{
+   font-size: 50px;
+   line-height: 2%;
+}
+#footer{
+  
+    text-align: center;
+}
+.footer-area{
+    background: #0B0D17;
+    padding: 80px;
+    color: blanchedalmond;
+    
+
+}
+.font-color{
+    color: #FB8E48;
 }
