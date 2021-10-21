@@ -8,18 +8,20 @@ body{
    
 }
 .header-part{
-    width: 1200px;
+    
     height: auto;
     margin: auto;
     position: relative;
-    padding-left: 7%;
-    padding-right: 5%;
-     width: 50%;
+    padding-left: 5%;
+    padding-right: 2%;
+     width: 100%;
 
 }
 .header-part h1{
-    font-size: 350%;
+    font-size: 375%;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
     
 }
 .header-part p{
@@ -29,16 +31,22 @@ body{
     color: orange;
 }
 .header-part img{
- padding-right: 10%;
- width: 110%;
+ 
+width: 658.26px;
+height: 747.23px;
+
+
  
 }
 .Order{
+    text-decoration: none;
     padding: 20px 50px;
-   
-    background-image: linear-gradient(
-    tomato
-    ,orange);
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+        border-radius: 50px
+}
+.contact-me{
+    padding: 20px 50px;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
         border-radius: 50px
 }
 #about{
@@ -53,9 +61,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 80px;
-
-width: 1490px;
+     left: 30px;
+width: 1500px;
 height: 600px;
+margin-right: 280px;
 
 
 
@@ -67,15 +76,21 @@ height: 600px;
     position: relative;
     padding-left: 7%;
     padding-right: 5%;
-     width: 50%
+     width: 50%;
+     line-height: 30px;
+     
 }
 .about-part{
-    width: 50%;
+    width: 60%;
+    
 }
 .about-part img{
     width: 60%;
     margin-left: 100px;
     margin-top: 60px;
+}
+.about-part p{
+    font-size: 19px;
 }
 .about-part h1{
     font-size: 350%;
@@ -145,14 +160,27 @@ margin: 6rem;
 #footer{
   
     text-align: center;
+    width: 110%;
+    mask-position: center;
 }
 .footer-area{
+    
     background: #0B0D17;
+    background-size: cover;
     padding: 80px;
     color: blanchedalmond;
+ align-items: center;
+ justify-content: space-between;
     
 
 }
 .font-color{
     color: #FB8E48;
 }
+.button{
+  text-decoration: none;
+  padding: 20px 50px;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+        border-radius: 50px
+}
+
