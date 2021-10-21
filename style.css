@@ -1,6 +1,7 @@
 body{
+
     font-family: 'Montserrat', sans-serif;
-    margin-bottom: 0%;
+
 }
 #header{
     display: flex;
@@ -160,11 +161,11 @@ margin: 6rem;
 #footer{
   
     text-align: center;
-    width: 110%;
-    mask-position: center;
+    width: 100%;
+    position: relative;
 }
 .footer-area{
-    
+    margin: 0;
     background: #0B0D17;
     background-size: cover;
     padding: 80px;
